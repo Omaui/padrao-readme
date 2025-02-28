@@ -47,3 +47,52 @@ Um bom README é essencial para garantir que outros desenvolvedores, ou até mes
     Em construção :rocket:
 </h4>
 
+## Features
+
+- [x] README com MarkDown
+- [x] README com HTML
+- [] Badge
+
+## Pré Requisitos
+
+- [VSCode](https://code.visualstudio.com/)
+- [GIT](https://git-scm.com/)
+
+## Executar o Projeto
+
+```bash
+# Voltar para a pasta c/
+..
+
+# Cria um repositorio
+mkdir nome-diretorio
+
+# Clone do repositorio
+git clone <path do repositorio>
+
+# Acessar a pasta do projeto via terminal
+cd meu-projeto
+
+# Abrir VSCode
+code .
+
+```
+
+## Mapa do Projeto
+
+```bash
+
++---img                 // Contém as imagens do README
++---temp                // Pasta temp para gerar tree
+ª   +---temp-1          // Pasta temp para gerar tree
+ª   +---temp-2          // Pasta temp para gerar tree
++---temp copy           // Pasta temp para gerar tree
+    +---temp-1          // Pasta temp para gerar tree
+    +---temp-2          // Pasta temp para gerar tree
+    
+```
+
+## Tecnologia Utilizadas
+
+-[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+-[MarkDown](https://www.markdownguide.org/)
